@@ -25,6 +25,17 @@
             <!--<artifactId>markup-document-builder</artifactId>-->
             <!--<version>1.1.1</version>-->
         <!--</dependency>-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.swagger/swagger-parser -->
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-parser</artifactId>
+            <version>1.0.38</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/io.github.swagger2markup/swagger2markup -->
         <dependency>
             <groupId>io.github.swagger2markup</groupId>

@@ -35,15 +35,15 @@ public class DocTest {
                 .toFolder(Paths.get("target/docs"));
 
 
-        Asciidoctor asciidoctor = Asciidoctor.Factory.create();
-
-        String[] pdfs = asciidoctor.convertDirectory(new GlobDirectoryWalker("target/docs"),
-                OptionsBuilder.options()
-                        .backend("pdf")
-        );
-        for (String pdf : pdfs) {
-            System.out.println(pdf);
-        }
+//        Asciidoctor asciidoctor = Asciidoctor.Factory.create();
+//
+//        String[] pdfs = asciidoctor.convertDirectory(new GlobDirectoryWalker("target/docs"),
+//                OptionsBuilder.options()
+//                        .backend("pdf")
+//        );
+//        for (String pdf : pdfs) {
+//            System.out.println(pdf);
+//        }
 
 
     }
