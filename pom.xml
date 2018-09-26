@@ -170,11 +170,11 @@
                             <!--<sourceHighlighter>coderay</sourceHighlighter>-->
                             <!--<doctype>book</doctype>-->
                             <outputDirectory>${asciidoctor.pdf.output.directory}</outputDirectory>
-                            <attributes>
-                                <pdf-fontsdir>fonts</pdf-fontsdir>
-                                <pdf-stylesdir>themes</pdf-stylesdir>
-                                <pdf-style>default</pdf-style>
-                            </attributes>
+                            <!--<attributes>-->
+                                <!--<pdf-fontsdir>${project.basedir}/src/docs/data/fonts</pdf-fontsdir>-->
+                                <!--<pdf-stylesdir>${project.basedir}/src/docs/data/themes</pdf-stylesdir>-->
+                                <!--<pdf-style>cn</pdf-style>-->
+                            <!--</attributes>-->
                         </configuration>
                     </execution>
 
