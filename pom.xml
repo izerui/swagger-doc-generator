@@ -167,18 +167,13 @@
                         </goals>
                         <configuration>
                             <backend>pdf</backend>
-                            <sourceHighlighter>coderay</sourceHighlighter>
-                            <doctype>book</doctype>
+                            <!--<sourceHighlighter>coderay</sourceHighlighter>-->
+                            <!--<doctype>book</doctype>-->
                             <outputDirectory>${asciidoctor.pdf.output.directory}</outputDirectory>
                             <attributes>
-                                <icons>font</icons>
-                                <pagenums/>
-                                <toc/>
-                                <idprefix/>
-                                <idseparator>-</idseparator>
                                 <pdf-fontsdir>fonts</pdf-fontsdir>
                                 <pdf-stylesdir>themes</pdf-stylesdir>
-                                <pdf-style>cn</pdf-style>
+                                <pdf-style>default</pdf-style>
                             </attributes>
                         </configuration>
                     </execution>
