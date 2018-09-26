@@ -90,6 +90,7 @@
                     <config>
                         <swagger2markup.markupLanguage>ASCIIDOC</swagger2markup.markupLanguage>
                         <swagger2markup.pathsGroupedBy>TAGS</swagger2markup.pathsGroupedBy>
+                        <swagger2markup.outputLanguage>ZH</swagger2markup.outputLanguage>
 
                         <swagger2markup.extensions.dynamicOverview.contentPath>${project.basedir}/src/docs/asciidoc/extensions/overview</swagger2markup.extensions.dynamicOverview.contentPath>
                         <swagger2markup.extensions.dynamicDefinitions.contentPath>${project.basedir}/src/docs/asciidoc/extensions/definitions</swagger2markup.extensions.dynamicDefinitions.contentPath>
@@ -166,7 +167,19 @@
                         </goals>
                         <configuration>
                             <backend>pdf</backend>
+                            <sourceHighlighter>coderay</sourceHighlighter>
+                            <doctype>book</doctype>
                             <outputDirectory>${asciidoctor.pdf.output.directory}</outputDirectory>
+                            <attributes>
+                                <icons>font</icons>
+                                <pagenums/>
+                                <toc/>
+                                <idprefix/>
+                                <idseparator>-</idseparator>
+                                <pdf-fontsdir>fonts</pdf-fontsdir>
+                                <pdf-stylesdir>themes</pdf-stylesdir>
+                                <pdf-style>cn</pdf-style>
+                            </attributes>
                         </configuration>
                     </execution>
 
