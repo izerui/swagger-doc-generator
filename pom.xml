@@ -125,7 +125,7 @@
                     <dependency>
                         <groupId>org.jruby</groupId>
                         <artifactId>jruby-complete</artifactId>
-                        <version>1.7.21</version>
+                        <version>1.7.23</version>
                     </dependency>
                 </dependencies>
                 <!-- Configure generic document generation settings -->
